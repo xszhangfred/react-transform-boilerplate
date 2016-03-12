@@ -22,7 +22,7 @@ class App extends Component {
         {this.state.renderNavBar?<NavBar />:this._getAppBar()}
         <AppLeftNav ref="leftNav" />
         {this.props.children}
-        <div className="app-footer">My Footer</div>
+        <div className="app-footer">xszhangfred</div>
       </div>
     );
   }
