@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import RaisedButton from 'material-ui/lib/raised-button';
-import AvatarURL from './assets/peter.png';
+import AvatarURL from './assets/photo.png';
 
 class About extends Component {
   render() {
@@ -10,7 +10,7 @@ class About extends Component {
           <div className="story">
             <h3>About Me</h3>
             <div className="desc">
-              Full Stack Web Developer, Mobile Application Developer
+              Potential Full Stack Web Developer, Potential Mobile Application Developer
             </div>
             <a href="https://github.com/xszhangfred">
               <RaisedButton label="Download Resume" primary={true} labelStyle={{fontSize: '16px'}}/>
