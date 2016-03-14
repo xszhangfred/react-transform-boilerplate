@@ -3,7 +3,7 @@ import map from 'lodash/fp/map';
 
 class Repos extends Component {
   render() {
-    const repoList = map(this.props.repos, (repo) => {
+    const repoList = map((repo) => {
       return (
         <li key={repo.id}>
           <div>
@@ -13,9 +13,7 @@ class Repos extends Component {
           <p className='desc'>{repo.description}</p>
         </li>
       );
-    });
-
-    console.log(repoList)
+    })(this.props.repos);
     return (
       <ul className="user-repos">
         { repoList }
